@@ -4,7 +4,7 @@ import "./Utils/Counters.sol";
 import "./Security/ReentrancyGuard.sol";
 import "./Token/ERC721/ERC721.sol";
 import "./Utils/Strings.sol";
-import "hardhat/console.sol";
+import "./Debug/console.sol";
 
 // import "./NFT.sol";
 
