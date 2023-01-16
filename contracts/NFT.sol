@@ -12,7 +12,7 @@ import "./Token/ERC721/IERC721.sol";
 
 import {Base64} from "./Libraries/Base64.sol";
 
-contract MyEpicNFT is IERC721, ERC721URIStorage {
+contract NFT is IERC721, ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
